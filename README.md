@@ -1,4 +1,5 @@
 Word2Vec
+
 This is an implementation of Word2Vec (Skip-gram with Negative Sampling) written entirely from scratch using only Python and NumPy.
 
 There are no deep learning frameworks like PyTorch or TensorFlow involved here. The goal of this project is to explicitly demonstrate how the underlying matrix operations, manual gradient derivation, and backpropagation actually work under the hood.
@@ -24,6 +25,7 @@ You only need numpy for the math and datasets to pull the training text from Hug
 
 Bash
 pip install numpy datasets
+
 2. Execute the code
 If you want to run it with the default fka/prompts.chat dataset from Hugging Face, just run:
 
